@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { BannerComponent } from './components/template/banner/banner.component';
 import { GameBarComponent } from './components/template/game-bar/game-bar.component';
 import { LojaComponent } from './components/template/loja/loja.component';
+import { HamburgerComponent } from './hamburger/hamburger.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { LojaComponent } from './components/template/loja/loja.component';
     HeaderComponent,
     BannerComponent,
     GameBarComponent,
-    LojaComponent
+    LojaComponent,
+    HamburgerComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
