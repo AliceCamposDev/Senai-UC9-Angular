@@ -1,0 +1,27 @@
+.buttonContainer{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    padding-right: 30px;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #eeffe5;
+}
+.headerButton{
+    align-items: center;
+    width: 111px;
+    height: 33px;
+    background: #262924;
+    border-radius: 8px;
+    font-size: 16;
+    cursor: pointer;
+    color: white;
+    border: solid 1px back;
+}
+.headerButton:hover{
+    background: #363835;
+    border-color: #343631;
+}
